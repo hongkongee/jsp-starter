@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1>jsp 버전 댄서등록 폼</h1>
-    <form action="/chap03/dancer/reg-process.jsp" method="post" id="reg-form">
+    <form action="/regist.do" method="post" id="reg-form">
         <label>
             # 이름 : <input type="text" name="name">
         </label>

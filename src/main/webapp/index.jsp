@@ -22,8 +22,14 @@
     </div>
 
     <div>
-        <a href="register.jsp">jsp 댄서 등록 폼</a>
+        <a href="chap03/dancer/register.jsp">jsp 댄서 등록 폼</a>
     </div>
+
+    <!-- 컨트롤러 여러 요청 식별 테스트 -->
+    <a href="/register.do">댄서 등록 폼</a> <br>
+    <a href="/list.do">댄서 목록화면</a> <br>
+    <a href="/delete.do">댄서 삭제 요청</a> <br>
+
 
 </body>
 </html>
